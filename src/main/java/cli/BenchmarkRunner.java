@@ -12,7 +12,7 @@ public class BenchmarkRunner {
     private static final String CSV = "target/metrics.csv";
 
     public static void main(String[] args) throws Exception {
-        int[] sizes = {100, 1000, 10000, 100000};
+        int[] sizes = {10, 100, 1000, 10000, 100000};
         int trials = 5;
 
         ensureHeader();
